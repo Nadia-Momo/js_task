@@ -1,0 +1,176 @@
+body{
+   background: #E5989B; 
+}
+*{
+    margin:0;
+    padding:0;
+
+}
+.task4{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.task1{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction: column;
+}
+.main_div{
+    background:black;
+    width:400px;
+    height:400px;
+    margin:0 auto;
+}
+.button1{
+    background-color: yellow;
+    border:none;
+    height: 50px;
+    width:50px;
+    border-radius: 50%;
+}
+.button2{
+    background-color: green;
+    border:none;
+    height: 50px;
+    width:50px;
+    border-radius: 50%;
+}
+.button3{
+    background-color: pink;
+    border:none;
+    height: 50px;
+    width:50px;
+    border-radius: 50%;
+}
+.button4{
+    background-color: purple;
+    border:none;
+    height: 50px;
+    width:50px;
+    border-radius: 50%;
+}
+.button_container{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:20px;
+    margin:20px;
+}
+.task2{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+}
+.plus_button img{
+    height:50px;
+    width:50px;
+}
+.minus_button img{
+    height:50px;
+    width:50px;
+}
+.quantity{
+    font-size: 35px;
+}
+.error{
+    margin-top: 50px;
+    color:red;
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight:bold;
+}
+input{
+    width:400px;
+    height:50px;
+    outline:0;
+    border:0;
+    background: beige;
+    font-size: 20px;
+    font-weight: bold;
+}
+.show{
+    color:green;
+    font-size: 25px;
+    font-weight:bold;
+}
+.task3{
+   
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:30px;
+}
+.submit{
+    width:100px;
+    height:50px;
+    font-size: 20px;
+    border:none;
+    background: greenyellow;
+    color:white;
+    font-weight: bold;
+}
+.show_text{
+   
+    height:50px;
+    font-size: 20px;
+    border:none;
+    background: greenyellow;
+    color:white;
+    font-weight: bold; 
+    padding:5px;
+}
+.task4{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:30px;  
+    margin-top:50px;  
+}
+.button6{
+    background:red;
+    border:none;
+    height: 50px;
+    width:50px;
+    border-radius: 50%;
+}
+.button7{
+    background:blue;
+    border:none;
+    height: 50px;
+    width:50px;
+    border-radius: 50%;
+}
+.button8{
+    background:green;
+    border:none;
+    height: 50px;
+    width:50px;
+    border-radius: 50%;
+}
+.hidden_text{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:20px;
+    margin-top:20px;
+    display:none;
+}
+.button5{
+    height:50px;
+    font-size: 20px;
+    border:none;
+    background: greenyellow;
+    color:white;
+    font-weight: bold; 
+    padding:5px;
+}
+.error_text{
+    margin-top:50px;
+    color:red;
+    text-align: center;
+    font-size: 25px;
+    font-weight:bold;
+}

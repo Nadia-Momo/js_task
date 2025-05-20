@@ -90,3 +90,9 @@ button7.addEventListener('click',()=>{
 button8.addEventListener('click',()=>{
     my_text.style="color:Green";
 })
+
+function fruitProcessor(apple,oranges){
+const juice=`juice with ${apple} and ${oranges} oranges`;
+return juice;
+}
+console.log(fruitProcessor(5,0));

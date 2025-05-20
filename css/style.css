@@ -1,0 +1,43 @@
+*{
+    margin:0;
+    padding:0;
+   
+}
+body{
+    background: #F1F9F9;
+}
+.input{
+    border:none;
+    background-color:#E8F9FF ;
+    outline:0;
+height:50px;
+border-radius: 5px;
+}
+input::placeholder{
+   font-weight: 600;
+   text-align: center;
+}
+.search_button{
+    border:none;
+    background: #6E85B7;
+    color:#E8F9FF;
+    font-weight: 700;
+    padding:18px;
+    border-radius: 10px;
+}
+.search{
+    background: #9AB3F5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+}
+.showProduct{
+   text-align: center;
+   font-weight: 700;
+   color:blue;
+}
+.error{
+    color:red;
+    font-weight:700;
+}
